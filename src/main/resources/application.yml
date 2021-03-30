@@ -1,0 +1,11 @@
+# setting h2
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+#       make log prettier
+        format_sql: true
